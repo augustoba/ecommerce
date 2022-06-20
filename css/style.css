@@ -1,0 +1,175 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.6rem;
+  line-height: 2;
+  }
+  
+ h1{
+  font-size: 5rem;
+  margin: 0 0 5rem 0;
+ }
+ h2{
+  font-size: 3rem;
+  margin: 0 0 5rem 0;
+ }
+
+ h3{
+  font-size: 2rem;
+  margin: 0 0 5rem 0;
+ }
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.contenedor {
+  max-width: 75rem;
+  margin: 0 auto;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/*utilidades*/
+.text-center {
+  text-align: center;
+}
+
+.btn{
+  background-color: #8cbc00;
+  display: block;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 900;
+  padding: .7rem;
+  box-shadow: .8rem .8rem 5rem black ;
+}
+
+.btn:hover{
+  background-color: #769c02;
+  font-size: 2.15rem;
+  border-radius: 2.5rem;
+  transition: .8s;
+  opacity: 70
+  
+}
+
+.nombre-sitio {
+  text-align: center;
+  margin-top: 5rem;
+  margin-bottom:5rem;
+  font-size: 4rem;
+}
+
+.nombre-sitio span {
+  color: #0c78f2;
+}
+
+.contenedor-navegacion {
+  border-top: .1rem solid #e1e1e1;
+}
+
+.nav-principal {
+  padding: 2rem 0;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.hero {
+  background-image: url(../img/principal.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 34.375rem;
+ 
+}
+.categorias{
+  padding-top: 5rem;
+}
+
+.categorias h2{
+  text-align: center;
+}
+.categoria a {
+  text-align: center;
+  display: block;
+  padding: 1.25rem;
+  font-size:1.25rem;
+}
+.categoria a:hover{
+  background-color:  #0c78f2;
+  color: #ffffff;
+  font-size: 2.15rem;
+  border-bottom-right-radius: 2.5rem;
+  border-bottom-left-radius: 2.5rem;
+  transition: .8s;
+  opacity: 70%;  
+}
+
+.Listado-categorias {
+  display: grid;
+  grid-template-columns: repeat(3,1fr); /* cantidad de columnas*/
+  gap: 1.25rem; /*distancia entre los grid*/
+ 
+}
+
+.sobre-nosotros {
+  margin-top: 1rem;
+  background-image: linear-gradient(to right,transparent 50%,#0c78f2 50%),
+  url(../img/nosotros.jpg) ; /*cambiar de gradiente de un color a otro*/
+  background-repeat: no-repeat;
+  background-position: left center;
+  padding: 6.25rem 0 ;
+  background-size: 100%, 58rem;
+}
+.sobre-nosotros-grid{
+  display: flex;
+  justify-content: flex-end;
+ 
+  }
+.texto-nosotros{
+ flex-basis: 50%; /* ancho del elemento*/
+ padding-left: 3rem;
+ color: #ffffff;
+}
+.contenido-principal{
+  padding-top: 3rem;
+}
+.productos{
+  background-color:  #0c78f2;
+ 
+}
+
+.texto-producto{
+  text-align: center;
+  color: #fff;
+  padding: 3rem;
+}
+.texto-producto h3{
+  margin: 0;
+  
+}
+.texto-producto p{
+  margin: 0 0 .5rem 0;
+}
+
+.precio {
+  font-size: 4rem;
+  font-weight: 900;
+}
+
+
+
