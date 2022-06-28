@@ -234,14 +234,22 @@ img {
   margin-top: 3.125rem;
   padding-top: 3.125rem;
 }
-
+.site-footer h3{
+  margin-bottom: 0.0313rem;
+}
 .grid-footer {
   display: grid;
   grid-template-columns: repeat(3,1fr);
   gap: 4rem;
-  
 }
   
+.footer-menu a {
+  display: block;
+}
 
-
+.copyright{
+  font-size: small;
+  text-align: center;
+  margin-top: 5rem;
+}
 
